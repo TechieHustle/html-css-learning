@@ -19,5 +19,25 @@ This repository contains all the content related to learning of HTML
 <img
   src="https://media.cnn.com/api/v1/images/stellar/prod/pxl-20240117-195215998-2.jpg?c=16x9&amp;q=h_720,w_1280,c_fill"
   alt="The US Supreme Court during arguments in Relentless Inc v. Department of Commerce on Wednesday, January 17, 2024."
-  height="160" width="284" loading="lazy" pinger-seen="true" />
+  height="160" width="284" loading="lazy" pinger-seen="true"
+/>
 ```
+- Some attributes can also be **boolean**, in which case we don't need to provide different attribute name and value. Example:
+  ```
+  <input type="text" disabled="disabled" />
+  ```
+  Or
+  ```
+  <input type="text" disabled />
+  ```
+  This will grey out the text input area.
+- Use anchors elements for Hyperlinks.
+  ```
+  <a href=https://www.mozilla.org/ title="Mozilla Homepage">
+    favorite websitse
+  </a>
+  ```
+  `title` attribute shows the text while hovering the mouse over, while the content ("favorite website") shows the text on the webpage.\\
+  `<a href="https://www.mozilla.org/" title="Here &quot;it&quot; is">favorite websitse</a>`: This will show the text on hovering `Here "it" is`
+- 
+  
