@@ -37,7 +37,8 @@ This repository contains all the content related to learning of HTML
     favorite websitse
   </a>
   ```
-  `title` attribute shows the text while hovering the mouse over, while the content ("favorite website") shows the text on the webpage.\\
+  `title` attribute shows the text while hovering the mouse over, while the content ("favorite website") shows the text on the webpage.\
+  **Quotes** in the text is done using `&quot;`, as in this example: \
   `<a href="https://www.mozilla.org/" title="Here &quot;it&quot; is">favorite websitse</a>`: This will show the text on hovering `Here "it" is`
 - 
   
