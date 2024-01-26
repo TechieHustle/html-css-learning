@@ -48,7 +48,13 @@ This repository contains all the content related to learning of HTML
   > NOTE: In case of `<script>`, we can also put the css script directly into the element, instead of using a source file from a different location.
 - Charset meta attribute is used for character encoding: `<meta charset="utf-8" />` and `utf-8` is considered the standard encoding supporting most of the characters.
   > Note: `charset` encoding is different from the `lang` attribute used in the `html` element, it's used by the search engines for effective indexing, and helps with the language specific search results.
-
+#### `<meta>` tags
+  - `<meta>` tags are used in head elements for metadata and contains some global attributes applied to the whole document, like `charset` and `name`.
+##### [`viewport`](https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag)
+  - It is used for the area in which web content can be seen. It's usually different from the rendered page size.
+  - Notable attributes of viewport are `width`, `height`, `initial-scale`, `minimum-scale`, `maximum-scale`, `user-scaleable`, `interactive-widget`.
+  - Usually to make the content appear similar on different devices (mobile, desktop etc.), `width` (determines the size of viewport) and `initial-scale` (determines the zoom level) attributes are used:\
+      `<meta name="viewport" content="width=device-width, initial-scale=1" />`
 
 ### CSS
 - 
