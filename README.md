@@ -42,3 +42,28 @@ This repository contains all the content related to learning of HTML
   `<a href="https://www.mozilla.org/" title="Here &quot;it&quot; is">favorite websitse</a>`: This will show the text on hovering `Here "it" is`
 - 
   
+### Head
+- `<title>` is used in the google search results hyperlink and also used in bookmarks. `<meta name="description" value="It's the text below link in Google search result">`
+- `<link rel="stylesheet" href="my-css-file.css" />` and `<script src="my-js-file.js" defer></script>` are also used in the head element to add CSS styling.
+  > NOTE: In case of `<script>`, we can also put the css script directly into the element, instead of using a source file from a different location.
+- Charset meta attribute is used for character encoding: `<meta charset="utf-8" />` and `utf-8` is considered the standard encoding supporting most of the characters.
+  > Note: `charset` encoding is different from the `lang` attribute used in the `html` element, it's used by the search engines for effective indexing, and helps with the language specific search results.
+
+
+### CSS
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
