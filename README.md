@@ -57,7 +57,7 @@ This repository contains all the content related to learning of HTML
       `<meta name="viewport" content="width=device-width, initial-scale=1" />`
 
 ### CSS
-- 
+- Stylessheets are added to the document as in `<head>` section of document: `<link href="styles.css" rel="stylesheet"/>`
 
 
 
